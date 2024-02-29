@@ -1,17 +1,15 @@
-'use client';
+"use client";
 
-import Navbar from '@/components/Navbar/Navbar';
-import { IRoom } from '@/types';
-import { useState } from 'react';
-import { Button } from './ui/button';
-import { ArrowLeft, ArrowRight } from 'lucide-react';
+import Navbar from "@/components/Navbar/Navbar";
+import { IRoom } from "@/types";
+import { useState } from "react";
+import { Button } from "./ui/button";
+import { ArrowLeft, ArrowRight } from "lucide-react";
 
 function TourScreen(props: { rooms: IRoom[] }) {
   const [open, setOpen] = useState(true);
 
-  const [iframeUrl, setIframeUrl] = useState(
-    'https://momento360.com/e/u/e4b16f1137f04cd18af6d8a6586b2a72?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true'
-  );
+  const [iframeUrl, setIframeUrl] = useState(props.rooms[0].url);
 
   const handle = (url: string) => {
     setIframeUrl(url);
@@ -23,7 +21,7 @@ function TourScreen(props: { rooms: IRoom[] }) {
       <div className="h-[85vh] relative">
         <div
           className={`bg-sky-600 duration-150 absolute left-0 right-0 w-60 p-3 h-full ${
-            open ? 'translate-x-0' : '-translate-x-full'
+            open ? "translate-x-0" : "-translate-x-full"
           }`}
         >
           <Button
@@ -37,10 +35,13 @@ function TourScreen(props: { rooms: IRoom[] }) {
           <ul>
             {props.rooms.map((item) => {
               return (
-                <li className="text-center cursor-pointer text-xl mb-2" key={item.url}>
+                <li
+                  className="text-center cursor-pointer text-xl mb-2"
+                  key={item.url}
+                >
                   <Button
                     onClick={() => handle(item.url)}
-                    variant={iframeUrl === item.url ? 'outline' : 'link'}
+                    variant={iframeUrl === item.url ? "outline" : "link"}
                     className="block w-full"
                   >
                     {item.label}
