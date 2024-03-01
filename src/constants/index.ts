@@ -17,6 +17,22 @@ export const arr: IArea[] = [
         url: 'https://momento360.com/e/u/9d13a1a41c2f4d059cf112585247e00e?utm_campaign=embed&utm_source=other&heading=-41.82&pitch=-4.37&field-of-view=100&size=medium&display-plan=true',
         label: 'Pump Room',
       },
+      {
+        url: 'https://momento360.com/e/u/f68a0e9421e14668b1de2f5eef21ecd2?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true',
+        label: 'Deep Well',
+      },
+      {
+        url: 'https://momento360.com/e/u/729693e08c764b9eb9cda09781cef464?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true',
+        label: 'WWTP Area',
+      },
+      {
+        url: 'https://momento360.com/e/u/d376aaf2a2b34709a6dccf81b18e7799?utm_campaign=embed&utm_source=other&heading=-86.85&pitch=-0.19&field-of-view=75&size=medium&display-plan=true',
+        label: 'WWTP Office',
+      },
+      {
+        url: 'https://momento360.com/e/u/377fd915dd8043008d5549f39e5da1b6?utm_campaign=embed&utm_source=other&heading=-149.42&pitch=-4.65&field-of-view=75&size=medium&display-plan=true',
+        label: 'Sub Station Room',
+      },
     ],
   },
   {
