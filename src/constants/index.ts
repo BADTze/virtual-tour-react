@@ -33,6 +33,14 @@ export const arr: IArea[] = [
         url: 'https://momento360.com/e/u/377fd915dd8043008d5549f39e5da1b6?utm_campaign=embed&utm_source=other&heading=-149.42&pitch=-4.65&field-of-view=75&size=medium&display-plan=true',
         label: 'Sub Station Room',
       },
+      {
+        url: 'https://momento360.com/e/u/2ed29b0ef740450daa0e8a8025153dd7?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true',
+        label: 'Chiller GBL',
+      },
+      {
+        url: 'https://momento360.com/e/u/15c499b4a0fc4f04a43d5cf217a42a76?utm_campaign=embed&utm_source=other&heading=35.8&pitch=-3.6&field-of-view=100&size=medium&display-plan=true',
+        label: 'Deep Well',
+      },
     ],
   },
   {
