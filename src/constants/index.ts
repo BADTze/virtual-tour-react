@@ -52,17 +52,49 @@ export const arr: IArea[] = [
     slug: 'ring-2',
     rooms: [
       {
-        url: 'https://momento360.com/e/u/e4b16f1137f04cd18af6d8a6586b2a72?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true',
-        label: 'Ruangan 2.1',
+        url: 'https://momento360.com/e/u/67ce7402465a4158b1507a11f6aae848?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true',
+        label: 'WTP Room',
       },
       {
-        url: 'https://momento360.com/e/u/e4b16f1137f04cd18af6d8a6586b2a72?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true',
-        label: 'Ruangan 2.2',
+        url: 'https://momento360.com/e/u/e1378ee4505a4afb89628bfc3c9d5e18?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true',
+        label: 'Cooling Tower',
       },
       {
-        url: 'https://momento360.com/e/u/e4b16f1137f04cd18af6d8a6586b2a72?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true',
-        label: 'Ruangan 2.3',
+        url: 'https://momento360.com/e/u/9fd318e4ef9144e4945faebbfe105725?utm_campaign=embed&utm_source=other&heading=-3.88&pitch=-8.31&field-of-view=75&size=medium&display-plan=true',
+        label: 'Compressor Low Pressure',
       },
+      {
+        url: 'https://momento360.com/e/u/fd7bb06dd65946e783f72857133e5ecd?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true',
+        label: 'Substation OC3',
+      },
+      {
+        url: 'https://momento360.com/e/u/6ff4bd3e2630436f94cee87bd7630782?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true',
+        label: 'Genset 1250 kVA',
+      },
+      {
+        url: 'https://momento360.com/e/u/825fb50131f04fdab555c7291af9b154?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true',
+        label: 'Genset Chiller',
+      },
+      {
+        url: 'https://momento360.com/e/u/354bf899d4694efa80e8ee8f17ef50be?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true',
+        label: 'Compressor High Pressure',
+      },
+      {
+        url: 'https://momento360.com/e/u/be5c49f20a6b499a9f11f9dfa2d5f285?utm_campaign=embed&utm_source=other&heading=141.17&pitch=-8.88&field-of-view=100&size=medium&display-plan=true',
+        label: 'Genset 250 kVA',
+      },
+      {
+        url: 'https://momento360.com/e/u/1fb2e2b7d63c4f9b8b12238bbfcb76cd?utm_campaign=embed&utm_source=other&heading=160.7&pitch=-6.25&field-of-view=100&size=medium&display-plan=true',
+        label: 'Substation PET',
+      },
+      {
+        url: 'https://momento360.com/e/u/da513648579e4a9ca2b3fd4c90c6f23a?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true',
+        label: 'Boiler 12 tph',
+      },
+      {
+        url: 'https://momento360.com/e/u/3fca28fbc45840cebcb634ac73c0b24a?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true',
+        label: 'Chiller',
+      }
     ],
   },
   {
