@@ -8,9 +8,11 @@ import { arr } from '@/constants';
 const Navbar = () => {
   return (
     <div className="w-[92%] mx-auto text-black flex items-center justify-between">
-      <img className="w-[160px] cursor-pointer" src={Logo.src} alt="" />
+      <Link href="/">
+        <img className="w-[160px]" src={Logo.src} alt="" />
+      </Link>
 
-      <ul className="flex list-none text-center">
+      <ul className="flex text-center list-none">
         {arr.map((item, i) => {
           return (
             <li key={item.name}>
@@ -25,7 +27,7 @@ const Navbar = () => {
         })}
       </ul>
 
-      <Button className="bg-sky-600 hover:bg-cyan-500 w-20 text-xl">Login</Button>
+      <Button className="w-20 text-xl bg-sky-600 hover:bg-cyan-500">Login</Button>
     </div>
   );
 };
