@@ -23,7 +23,7 @@ export const arr: IArea[] = [
       },
       {
         url: 'https://momento360.com/e/u/f68a0e9421e14668b1de2f5eef21ecd2?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true',
-        label: 'Deep Well',
+        label: 'Deep Well 2',
       },
       {
         url: 'https://momento360.com/e/u/729693e08c764b9eb9cda09781cef464?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true',
@@ -43,7 +43,7 @@ export const arr: IArea[] = [
       },
       {
         url: 'https://momento360.com/e/u/15c499b4a0fc4f04a43d5cf217a42a76?utm_campaign=embed&utm_source=other&heading=35.8&pitch=-3.6&field-of-view=100&size=medium&display-plan=true',
-        label: 'Deep Well',
+        label: 'Deep Well 1',
       },
     ],
   },
