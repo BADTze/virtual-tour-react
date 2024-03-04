@@ -10,6 +10,10 @@ export const arr: IArea[] = [
         label: 'WTP Room 1',
       },
       {
+        url: 'https://momento360.com/e/u/fb9186cac6854e2683bc0a15196466dd?utm_campaign=embed&utm_source=other&heading=-200.06&pitch=0.44&field-of-view=100&size=medium&display-plan=true',
+        label: 'Compressor Room',
+      },
+      {
         url: 'https://momento360.com/e/u/44f411fb15b54100b4c006d39a8aaad2?utm_campaign=embed&utm_source=other&heading=-39.5&pitch=-2.05&field-of-view=100&size=medium&display-plan=true',
         label: 'Boiler Room',
       },
