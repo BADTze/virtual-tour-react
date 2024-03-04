@@ -7,9 +7,9 @@ import { arr } from '@/constants';
 
 const Navbar = () => {
   return (
-    <div className="w-[92%] mx-auto text-black flex items-center justify-between">
+    <div className="w-[92%] h-[10vh] mx-auto text-black flex items-center justify-between">
       <Link href="/">
-        <img className="w-[160px]" src={Logo.src} alt="" />
+        <img className="w-[140px]" src={Logo.src} alt="" />
       </Link>
 
       <ul className="flex text-center list-none">
@@ -27,7 +27,8 @@ const Navbar = () => {
         })}
       </ul>
 
-      <Button className="w-20 text-xl bg-sky-600 hover:bg-cyan-500">Login</Button>
+      {/* <Button className="w-20 text-xl bg-sky-600 hover:bg-cyan-500">Login</Button> */}
+      <div />
     </div>
   );
 };

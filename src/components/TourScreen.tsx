@@ -16,9 +16,9 @@ function TourScreen(props: { rooms: IRoom[] }) {
   };
 
   return (
-    <div>
+    <>
       <Navbar />
-      <div className="h-[85vh] relative">
+      <div className="h-[90vh] relative">
         <div
           className={`bg-sky-600 duration-150 absolute left-0 right-0 w-60 p-3 h-full ${
             open ? "translate-x-0" : "-translate-x-full"
@@ -26,7 +26,7 @@ function TourScreen(props: { rooms: IRoom[] }) {
         >
           <Button
             size="icon"
-            className="top-5 -right-8 absolute rotate-180"
+            className="absolute rotate-180 top-5 -right-8"
             onClick={() => setOpen(!open)}
           >
             {open ? <ArrowRight /> : <ArrowLeft />}
@@ -36,7 +36,7 @@ function TourScreen(props: { rooms: IRoom[] }) {
             {props.rooms.map((item) => {
               return (
                 <li
-                  className="text-center cursor-pointer text-xl mb-2"
+                  className="mb-2 text-xl text-center cursor-pointer"
                   key={item.url}
                 >
                   <Button
@@ -54,7 +54,7 @@ function TourScreen(props: { rooms: IRoom[] }) {
 
         <iframe width="100%" height="100%" src={iframeUrl} />
       </div>
-    </div>
+    </>
   );
 }
 
