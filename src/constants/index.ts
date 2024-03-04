@@ -69,7 +69,7 @@ export const arr: IArea[] = [
       },
       {
         url: 'https://momento360.com/e/u/6ff4bd3e2630436f94cee87bd7630782?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true',
-        label: 'Genset 1250 kVA',
+        label: 'Genset 250 kVA',
       },
       {
         url: 'https://momento360.com/e/u/825fb50131f04fdab555c7291af9b154?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true',
@@ -81,7 +81,7 @@ export const arr: IArea[] = [
       },
       {
         url: 'https://momento360.com/e/u/be5c49f20a6b499a9f11f9dfa2d5f285?utm_campaign=embed&utm_source=other&heading=141.17&pitch=-8.88&field-of-view=100&size=medium&display-plan=true',
-        label: 'Genset 250 kVA',
+        label: 'Genset 1250 kVA',
       },
       {
         url: 'https://momento360.com/e/u/1fb2e2b7d63c4f9b8b12238bbfcb76cd?utm_campaign=embed&utm_source=other&heading=160.7&pitch=-6.25&field-of-view=100&size=medium&display-plan=true',
