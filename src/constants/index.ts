@@ -89,12 +89,28 @@ export const arr: IArea[] = [
       },
       {
         url: 'https://momento360.com/e/u/da513648579e4a9ca2b3fd4c90c6f23a?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true',
-        label: 'Boiler 12 tph',
+        label: 'Boiler 12 TPH',
       },
       {
         url: 'https://momento360.com/e/u/3fca28fbc45840cebcb634ac73c0b24a?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true',
         label: 'Chiller',
-      }
+      },
+      {
+        url: 'https://momento360.com/e/u/894529582f374eeca39248bf50c766b1?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true',
+        label: 'Deep Well 3',
+      },
+      {
+        url: 'https://momento360.com/e/u/016489bccd5f470cb6832c544145e387?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true',
+        label: 'Water Storage',
+      },
+      {
+        url: 'https://momento360.com/e/u/581b48a465de426988a8384340fe20ab?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true',
+        label: 'Deep Well 5',
+      },
+      {
+        url: 'https://momento360.com/e/u/56b352636c0444429f7b6768e3394288?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true',
+        label: 'Deep Well 6',
+      },
     ],
   },
   {
