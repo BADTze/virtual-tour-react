@@ -14,6 +14,10 @@ export const arr: IArea[] = [
         label: 'Compressor Room',
       },
       {
+        url: 'https://momento360.com/e/u/f05e6454ac684437aa3ae78038b541a4?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true',
+        label: 'Solar Tank',
+      },
+      {
         url: 'https://momento360.com/e/u/44f411fb15b54100b4c006d39a8aaad2?utm_campaign=embed&utm_source=other&heading=-39.5&pitch=-2.05&field-of-view=100&size=medium&display-plan=true',
         label: 'Boiler Room',
       },
@@ -45,6 +49,14 @@ export const arr: IArea[] = [
         url: 'https://momento360.com/e/u/15c499b4a0fc4f04a43d5cf217a42a76?utm_campaign=embed&utm_source=other&heading=35.8&pitch=-3.6&field-of-view=100&size=medium&display-plan=true',
         label: 'Deep Well 1',
       },
+      {
+        url: 'https://momento360.com/e/u/581b48a465de426988a8384340fe20ab?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true',
+        label: 'Deep Well 5',
+      },
+      {
+        url: 'https://momento360.com/e/u/894529582f374eeca39248bf50c766b1?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true',
+        label: 'Deep Well 3',
+      },
     ],
   },
   {
@@ -52,7 +64,7 @@ export const arr: IArea[] = [
     slug: 'ring-2',
     rooms: [
       {
-        url: 'https://momento360.com/e/u/67ce7402465a4158b1507a11f6aae848?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true',
+        url: 'https://momento360.com/e/u/755766a603ad49408572fbedb27b9e4c?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true',
         label: 'WTP Room',
       },
       {
@@ -96,20 +108,20 @@ export const arr: IArea[] = [
         label: 'Chiller',
       },
       {
-        url: 'https://momento360.com/e/u/894529582f374eeca39248bf50c766b1?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true',
-        label: 'Deep Well 3',
+        url: 'https://momento360.com/e/u/848544aa48884c3cabfe50bd68ec2748?utm_campaign=embed&utm_source=other&size=medium&display-plan=true',
+        label: 'Deep Well 4',
       },
       {
         url: 'https://momento360.com/e/u/016489bccd5f470cb6832c544145e387?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true',
         label: 'Water Storage',
       },
       {
-        url: 'https://momento360.com/e/u/581b48a465de426988a8384340fe20ab?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true',
-        label: 'Deep Well 5',
-      },
-      {
         url: 'https://momento360.com/e/u/56b352636c0444429f7b6768e3394288?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true',
         label: 'Deep Well 6',
+      },
+      {
+        url: 'https://momento360.com/e/u/c2e34b2c07d7468b827cd059d89dcfed?utm_campaign=embed&utm_source=other&size=medium&display-plan=true',
+        label: 'Deep Well 7',
       },
     ],
   },
@@ -118,16 +130,32 @@ export const arr: IArea[] = [
     slug: 'ring-3',
     rooms: [
       {
-        url: 'https://momento360.com/e/u/e4b16f1137f04cd18af6d8a6586b2a72?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true',
-        label: 'Ruangan 3.1',
+        url: 'https://momento360.com/e/u/e2ae56d4e4ab4f1ca6b00bb23def10b2?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true',
+        label: 'High Compressor',
       },
       {
-        url: 'https://momento360.com/e/u/95e46dae2f6748fcae65a942656af37b?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true',
-        label: 'Ruangan 3.2',
+        url: 'https://momento360.com/e/u/31d59cebcd4f44faa7d99c23ce253618?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true',
+        label: 'Low Compressor',
       },
       {
-        url: 'https://momento360.com/e/u/7574bc1982b94bdda7070a847b4de577?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true',
-        label: 'Ruangan 3.3',
+        url: 'https://momento360.com/e/u/8afadfa99c55406dbda6e5e1f87557af?utm_campaign=embed&utm_source=other&heading=88.42&pitch=-10.52&field-of-view=100&size=medium&display-plan=true',
+        label: 'Substation Room',
+      },
+      {
+        url: 'https://momento360.com/e/u/7907aaca21464d80a82f3a27eec55892?utm_campaign=embed&utm_source=other&heading=-185.42&pitch=-15.57&field-of-view=75&size=medium&display-plan=true',
+        label: 'Chiller Room',
+      },
+      {
+        url: 'https://momento360.com/e/u/3e14eaeb93d4400abeaa7973423fd4d3?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true',
+        label: 'Cooling Tower',
+      },
+      {
+        url: 'https://momento360.com/e/u/dd6c318c800c40b7a63395908f1254bc?utm_campaign=embed&utm_source=other&heading=-175.78&pitch=11.1&field-of-view=75&size=medium&display-plan=true',
+        label: 'WTP Room',
+      },
+      {
+        url: 'https://momento360.com/e/u/95ad0131c0e04e93873a1f6da68f6b6d?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true',
+        label: 'Water Storage',
       },
     ],
   }

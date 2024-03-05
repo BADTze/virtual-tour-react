@@ -20,7 +20,7 @@ function TourScreen(props: { rooms: IRoom[] }) {
       <Navbar />
       <div className="h-[90vh] relative">
         <div
-          className={`bg-sky-600 duration-150 absolute left-0 right-0 w-60 p-3 h-full ${
+          className={`bg-sky-400 bg-opacity-65 duration-150 absolute left-0 right-0 w-60 p-3 h-full ${
             open ? "translate-x-0" : "-translate-x-full"
           }`}
         >
