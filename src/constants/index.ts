@@ -130,7 +130,7 @@ export const arr: IArea[] = [
     slug: 'ring-3',
     rooms: [
       {
-        url: 'https://momento360.com/e/u/e2ae56d4e4ab4f1ca6b00bb23def10b2?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true',
+        url: 'https://momento360.com/e/u/954ee7c6d3504ac9803feaae9db92319?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true',
         label: 'High Compressor',
       },
       {
