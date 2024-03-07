@@ -26,8 +26,6 @@ const Navbar = () => {
           );
         })}
       </ul>
-
-      {/* <Button className="w-20 text-xl bg-sky-600 hover:bg-cyan-500">Login</Button> */}
       <div />
     </div>
   );
