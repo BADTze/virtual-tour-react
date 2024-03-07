@@ -34,3 +34,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+public/images/ring-1/*
+!public/images/ring-1/.gitkeep
+
+public/images/ring-2/*
+!public/images/ring-2/.gitkeep
+
+public/images/ring-3/*
+!public/images/ring-3/.gitkeep
