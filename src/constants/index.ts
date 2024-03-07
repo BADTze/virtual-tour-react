@@ -30,7 +30,7 @@ export const arr: IArea[] = [
               pitch: -0.127,
             },
             tooltip: {
-              content: 'Go to Solar Tank',
+              content: 'Go to Solar <b>Tank</b>',
             },
           },
         ],

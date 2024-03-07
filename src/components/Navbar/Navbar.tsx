@@ -26,7 +26,7 @@ const Navbar = (props: NavbarProps) => {
           return (
             <li key={item.name}>
               <Link
-                href={`/tour/${item.slug}`}
+                href={`/tour/${item.slug}/${item.rooms[0]?.slug}`}
                 className={cn(
                   'inline-block m-10 text-xl cursor-pointer',
                   props.activeMenu === item.slug ? 'text-sky-400' : 'text-black'
