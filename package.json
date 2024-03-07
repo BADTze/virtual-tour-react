@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@photo-sphere-viewer/core": "^5.7.2",
+    "@photo-sphere-viewer/markers-plugin": "^5.7.2-fix.1",
+    "@radix-ui/react-scroll-area": "^1.0.5",
     "@radix-ui/react-slot": "^1.0.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
@@ -16,6 +19,7 @@
     "next": "14.1.0",
     "react": "^18",
     "react-dom": "^18",
+    "react-photo-sphere-viewer": "^5.0.2-psv5.7.1",
     "tailwind-merge": "^2.2.1",
     "tailwindcss-animate": "^1.0.7"
   },

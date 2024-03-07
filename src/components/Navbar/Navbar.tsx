@@ -1,13 +1,22 @@
 /* eslint-disable @next/next/no-img-element */
-import React from 'react';
-import { Button } from '../ui/button';
-import Logo from '../../assets/otsuka_logo_big.png';
+import Logo from '@/assets/otsuka_logo_big.png';
 import Link from 'next/link';
 import { arr } from '@/constants';
+import { cn } from '@/lib/utils';
 
-const Navbar = () => {
+interface NavbarProps {
+  activeMenu?: string;
+  navClass?: string;
+}
+
+const Navbar = (props: NavbarProps) => {
   return (
-    <div className="w-[92%] h-[10vh] mx-auto text-black flex items-center justify-between">
+    <div
+      className={cn(
+        'w-[92%] h-[10vh] px-5 mx-auto text-black flex items-center justify-between',
+        props.navClass
+      )}
+    >
       <Link href="/">
         <img className="w-[140px]" src={Logo.src} alt="" />
       </Link>
@@ -17,8 +26,11 @@ const Navbar = () => {
           return (
             <li key={item.name}>
               <Link
-                href={`/tour/${item.slug}`}
-                className="inline-block m-10 text-xl cursor-pointer"
+                href={`/tour/${item.slug}/${item.rooms[0]?.slug}`}
+                className={cn(
+                  'inline-block m-10 text-xl cursor-pointer',
+                  props.activeMenu === item.slug ? 'text-sky-400' : 'text-black'
+                )}
               >
                 {item.name}
               </Link>
