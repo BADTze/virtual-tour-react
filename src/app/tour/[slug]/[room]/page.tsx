@@ -11,5 +11,11 @@ export default async function Page({ params }: { params: { slug: string; room: s
     notFound();
   }
 
-  return <TourScreenLocal room={room} slug={slug} rooms={rooms?.rooms || []} />;
+  const currentRoom = rooms.rooms.find((r) => r.slug === room);
+
+  if (!currentRoom) {
+    notFound();
+  }
+
+  return <TourScreenLocal room={currentRoom} areaSlug={slug} rooms={rooms?.rooms || []} />;
 }

@@ -13,7 +13,7 @@ const Navbar = (props: NavbarProps) => {
   return (
     <div
       className={cn(
-        'w-[92%] h-[10vh] mx-auto text-black flex items-center justify-between',
+        'w-[92%] h-[10vh] px-5 mx-auto text-black flex items-center justify-between',
         props.navClass
       )}
     >

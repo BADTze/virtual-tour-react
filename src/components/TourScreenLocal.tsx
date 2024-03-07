@@ -7,19 +7,22 @@ import { ArrowLeft, ArrowRight } from 'lucide-react';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import Link from 'next/link';
 import { cn } from '@/lib/utils';
-import { IRoom } from '@/types';
+import { IMarkerCustom, IRoom } from '@/types';
 import { Viewer } from '@photo-sphere-viewer/core';
 import { MarkersPlugin } from '@photo-sphere-viewer/markers-plugin';
+import { useRouter } from 'next/navigation';
+import { transformMarkerConfig } from '@/lib/photo-sphere';
 
 export default function TourScreenLocal({
   room,
-  slug,
+  areaSlug,
   rooms,
 }: {
-  room: string;
-  slug: string;
+  room: IRoom;
+  areaSlug: string;
   rooms: IRoom[];
 }) {
+  const router = useRouter();
   const [isMounted, setIsMounted] = useState(false);
   const [open, setOpen] = useState(true);
   const containerRef = useRef<HTMLDivElement>(null);
@@ -32,41 +35,14 @@ export default function TourScreenLocal({
     if (isMounted) {
       const viewer = new Viewer({
         container: containerRef.current as HTMLElement,
-        panorama: `/images/${slug}/${room}.jpg`,
+        panorama: `/images/${areaSlug}/${room.slug}.jpg`,
         plugins: [
           [
             MarkersPlugin,
             {
-              markers: [
-                {
-                  id: 'marker-p16i9mmdt4',
-                  image: '/images/arrow-up-right.png',
-                  position: {
-                    yaw: 1.644,
-                    pitch: 0,
-                  },
-                  size: {
-                    width: 64,
-                    height: 64,
-                  },
-                  tooltip: 'A image marker. <b>Click me!</b>',
-                  anchor: 'bottom center',
-                },
-                {
-                  id: 'marker-ty776acpg1',
-                  image: '/images/pin-blue.png',
-                  position: {
-                    yaw: 4.524,
-                    pitch: -0.127,
-                  },
-                  size: {
-                    width: 32,
-                    height: 32,
-                  },
-                  tooltip: 'A image marker. <b>Click me!</b>',
-                  anchor: 'bottom center',
-                },
-              ],
+              markers: room.markers.map((marker) => {
+                return transformMarkerConfig(marker);
+              }),
             },
           ],
         ],
@@ -77,18 +53,18 @@ export default function TourScreenLocal({
       markersPlugin.addEventListener('select-marker', (e) => {
         const { marker, returnValue } = e;
         const { config } = marker;
-        console.log(config);
+        router.push(`/tour/${config.id}`);
       });
 
       return () => {
         viewer.destroy();
       };
     }
-  }, [isMounted, room, slug]);
+  }, [isMounted, room, areaSlug]);
 
   return (
     <>
-      <Navbar activeMenu={slug} navClass="fixed top-0 z-50 w-full bg-white" />
+      <Navbar activeMenu={areaSlug} navClass="fixed top-0 z-50 w-full bg-white" />
       <div
         className={cn(
           'z-50 bg-sky-400/80 duration-150 absolute left-0 right-0 w-60 p-3',
@@ -109,9 +85,9 @@ export default function TourScreenLocal({
             {rooms.map((item) => {
               return (
                 <li className="mb-2 text-xl text-center cursor-pointer" key={item.url}>
-                  <Link href={`/tour/${slug}/${room}`}>
+                  <Link href={`/tour/${areaSlug}/${item.slug}`}>
                     <Button
-                      variant={room === item.slug ? 'outline' : 'link'}
+                      variant={room.slug === item.slug ? 'outline' : 'link'}
                       className="block w-full"
                     >
                       {item.label}

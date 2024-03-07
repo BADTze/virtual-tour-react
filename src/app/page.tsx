@@ -24,7 +24,7 @@ export default function Page() {
             {arr.map((item, i) => (
               <Link
                 key={item.name}
-                href={`/tour/${item.slug}`}
+                href={`/tour/${item.slug}/${item.rooms[0].slug}`}
                 className={buttonVariants({ variant: 'secondary', size: 'lg' })}
               >
                 {item.name}
