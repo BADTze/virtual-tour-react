@@ -13,12 +13,27 @@ export const arr: IArea[] = [
       {
         url: 'https://momento360.com/e/u/fb9186cac6854e2683bc0a15196466dd?utm_campaign=embed&utm_source=other&heading=-200.06&pitch=0.44&field-of-view=100&size=medium&display-plan=true',
         label: 'Compressor Room',
-        slug:'Compressor-room'
+        slug:'Compressor-room1'
+      },
+      {
+        url: 'https://momento360.com/e/u/1b4042efbe134ec28bdf568afe1611f3?utm_campaign=embed&utm_source=other&heading=-108.47&pitch=-1.11&field-of-view=75&size=medium&display-plan=true',
+        label: 'Genset Room',
+        slug:'Genset-room1'
+      },
+      {
+        url: 'https://momento360.com/e/u/e98b7319545b4481b6d9ba6670e4824a?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true',
+        label: 'Substation Room',
+        slug:'sub-station1-1'
       },
       {
         url: 'https://momento360.com/e/u/f05e6454ac684437aa3ae78038b541a4?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true',
         label: 'Solar Tank',
         slug:'solar-tank'
+      },
+      {
+        url: 'https://momento360.com/e/u/c0b06da3c8aa4a0aa30115bed9389426?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true',
+        label: 'Recycle Water',
+        slug:'recycle-water-room'
       },
       {
         url: 'https://momento360.com/e/u/44f411fb15b54100b4c006d39a8aaad2?utm_campaign=embed&utm_source=other&heading=-39.5&pitch=-2.05&field-of-view=100&size=medium&display-plan=true',
@@ -48,7 +63,7 @@ export const arr: IArea[] = [
       {
         url: 'https://momento360.com/e/u/377fd915dd8043008d5549f39e5da1b6?utm_campaign=embed&utm_source=other&heading=-149.42&pitch=-4.65&field-of-view=75&size=medium&display-plan=true',
         label: 'Sub Station Room',
-        slug:'sub-station1'
+        slug:'sub-station1-2'
       },
       {
         url: 'https://momento360.com/e/u/2ed29b0ef740450daa0e8a8025153dd7?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true',
@@ -99,7 +114,7 @@ export const arr: IArea[] = [
       {
         url: 'https://momento360.com/e/u/6ff4bd3e2630436f94cee87bd7630782?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true',
         label: 'Genset 250 kVA',
-        slug:'genset'
+        slug:'genset-250'
       },
       {
         url: 'https://momento360.com/e/u/825fb50131f04fdab555c7291af9b154?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true',
@@ -119,7 +134,7 @@ export const arr: IArea[] = [
       {
         url: 'https://momento360.com/e/u/1fb2e2b7d63c4f9b8b12238bbfcb76cd?utm_campaign=embed&utm_source=other&heading=160.7&pitch=-6.25&field-of-view=100&size=medium&display-plan=true',
         label: 'Substation PET',
-        slug:'substation'
+        slug:'substation-pet'
       },
       {
         url: 'https://momento360.com/e/u/da513648579e4a9ca2b3fd4c90c6f23a?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true',
@@ -138,8 +153,8 @@ export const arr: IArea[] = [
       },
       {
         url: 'https://momento360.com/e/u/016489bccd5f470cb6832c544145e387?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true',
-        label: 'Water Storage',
-        slug:'water-storage'
+        label: 'Water Storage 1000 Ton',
+        slug:'water-storage-1000'
       },
       {
         url: 'https://momento360.com/e/u/56b352636c0444429f7b6768e3394288?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true',
