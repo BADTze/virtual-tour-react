@@ -17,5 +17,11 @@ export default async function Page({ params }: { params: { slug: string; room: s
     notFound();
   }
 
+  const image = await fetch(`${process.env.PUBLIC_URL}/images/${slug}/${room}.jpg`);
+
+  if (image.status === 404) {
+    notFound();
+  }
+
   return <TourScreenLocal room={currentRoom} areaSlug={slug} rooms={rooms?.rooms || []} />;
 }
