@@ -1,6 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import React from 'react';
-import Logo from '../../assets/otsuka_logo_big.png';
+import Logo from '@/assets/otsuka_logo_big.png';
 import Link from 'next/link';
 import { arr } from '@/constants';
 import { cn } from '@/lib/utils';
