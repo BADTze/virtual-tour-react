@@ -2,6 +2,8 @@ import TourScreenLocal from '@/components/TourScreenLocal';
 import { getRooms } from '@/lib/services';
 import { notFound } from 'next/navigation';
 
+export const revalidate = 0;
+
 export default async function Page({ params }: { params: { slug: string; room: string } }) {
   const { room, slug } = params;
 
