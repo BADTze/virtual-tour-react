@@ -10,7 +10,7 @@ export const ring1Area: IArea = {
       slug: 'wtp-room-1',
       markers: [
         {
-          markerType: 'exit',
+          markerType: 'pin',
           id: 'ring-1/wwtp-office',
           position: {
             "yaw": 4.772,
@@ -37,8 +37,9 @@ export const ring1Area: IArea = {
       url: 'https://momento360.com/e/u/fb9186cac6854e2683bc0a15196466dd?utm_campaign=embed&utm_source=other&heading=-200.06&pitch=0.44&field-of-view=100&size=medium&display-plan=true',
       label: 'Compressor Room',
       slug: 'compressor-room',
-      markers: [{
-        markerType: 'exit',
+      markers: [
+      {
+        markerType: 'pin',
         id: 'ring-1/wtp-room-1',
         position: {
           "yaw": 0.313,
@@ -47,7 +48,19 @@ export const ring1Area: IArea = {
         tooltip: {
           content: 'Go <b>WTP Room</b>',
         },
-      }],
+      },
+      {
+        markerType: 'pin',
+        id: 'ring-1/w',
+        position: {
+          "yaw": 4.563,
+          "pitch": -0.114
+        },
+        tooltip: {
+          content: 'Go <b>WTP Room</b>',
+        },
+      },
+    ],
     },
     {
       url: 'https://momento360.com/e/u/fb9186cac6854e2683bc0a15196466dd?utm_campaign=embed&utm_source=other&heading=-200.06&pitch=0.44&field-of-view=100&size=medium&display-plan=true',
@@ -206,7 +219,7 @@ export const ring1Area: IArea = {
       slug: 'wwtp-office',
       markers: [
         {
-          markerType: 'exit',
+          markerType: 'pin',
           id: 'ring-1/',
           position: {
             "yaw": 1.793,
@@ -260,11 +273,22 @@ export const ring1Area: IArea = {
       slug: 'dw-1',
       markers: [
         {
-          markerType: 'exit',
+          markerType: 'pin',
           id: 'ring-1/',
           position: {
-            "yaw": 3.252,
-            "pitch": 0.036
+            "yaw": 4.62,
+            "pitch": -0.126
+          },
+          tooltip: {
+            content: 'Keluar',
+          },
+        },
+        {
+          markerType: 'pin',
+          id: 'ring-1/d',
+          position: {
+            "yaw": 1.868,
+            "pitch": -0.061
           },
           tooltip: {
             content: 'Keluar',
@@ -278,7 +302,7 @@ export const ring1Area: IArea = {
       slug: 'dw-5',
       markers: [
         {
-          markerType: 'exit',
+          markerType: 'pin',
           id: 'ring-1/',
           position: {
             "yaw": 5.826,
@@ -296,7 +320,7 @@ export const ring1Area: IArea = {
       slug: 'dw-3',
       markers: [
         {
-          markerType: 'exit',
+          markerType: 'pin',
           id: 'ring-1/',
           position: {
             "yaw": 4.492,

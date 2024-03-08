@@ -13,8 +13,8 @@ export const ring3Area: IArea = {
           markerType: 'pin',
           id: 'ring-2/',
           position: {
-            "yaw": 3.663,
-            "pitch": -0.086
+            "yaw": 1.505,
+            "pitch": 0.044
           },
           tooltip: {
             content: '',
@@ -30,9 +30,9 @@ export const ring3Area: IArea = {
         {
           markerType: 'pin',
           id: 'ring-2/',
-          position: {
-            "yaw": 3.663,
-            "pitch": -0.086
+          position:  {
+            "yaw": 4.369,
+            "pitch": 0.026
           },
           tooltip: {
             content: '',
@@ -49,8 +49,8 @@ export const ring3Area: IArea = {
           markerType: 'pin',
           id: 'ring-2/',
           position: {
-            "yaw": 3.663,
-            "pitch": -0.086
+            "yaw": 3.276,
+            "pitch": -0.176
           },
           tooltip: {
             content: '',
@@ -67,8 +67,8 @@ export const ring3Area: IArea = {
           markerType: 'pin',
           id: 'ring-2/',
           position: {
-            "yaw": 3.663,
-            "pitch": -0.086
+            "yaw": 2.337,
+            "pitch": -0.049
           },
           tooltip: {
             content: '',
@@ -85,8 +85,8 @@ export const ring3Area: IArea = {
           markerType: 'pin',
           id: 'ring-2/',
           position: {
-            "yaw": 3.663,
-            "pitch": -0.086
+            "yaw": 1.393,
+            "pitch": 0.066
           },
           tooltip: {
             content: '',
@@ -103,8 +103,19 @@ export const ring3Area: IArea = {
           markerType: 'pin',
           id: 'ring-2/',
           position: {
-            "yaw": 3.663,
-            "pitch": -0.086
+            "yaw": 2.975,
+            "pitch": -0.053
+          },
+          tooltip: {
+            content: '',
+          },
+        },
+        {
+          markerType: 'pin',
+          id: 'ring-2/her',
+          position: {
+            "yaw": 6.075,
+            "pitch": -0.107
           },
           tooltip: {
             content: '',
