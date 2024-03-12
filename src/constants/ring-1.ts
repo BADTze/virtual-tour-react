@@ -10,7 +10,8 @@ export const ring1Area: IArea = {
       slug: 'wtp-room-1',
       markers: [
         {
-          markerType: 'pin',
+          markerType: 'walk',
+          arrowType:'right',
           id: 'ring-1/wwtp-office',
           position: {
             "yaw": 4.772,

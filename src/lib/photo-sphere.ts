@@ -14,7 +14,7 @@ export const decideMarkerType = (markerConfig: MarkerType): string => {
 
     if (markerConfig.arrowType === 'left') return '/images/arrow-up-left.png';
 
-    if (markerConfig.arrowType === 'right') return '/images/arrow-up-right.png';
+    if (markerConfig.arrowType === 'right') return '/images/arrow-kanan.png';
   }
 
   return '/images/pin-blue.png';
@@ -29,8 +29,8 @@ export const transformMarkerConfig = (markerConfig: IMarkerCustom): IMarker => {
     position: markerConfig.position,
     rotation: 0,
     size: {
-      height: 32,
-      width: 32,
+      height: 65,
+      width: 65,
     },
     tooltip: {
       content: markerConfig.tooltip.content,
