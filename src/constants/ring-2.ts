@@ -112,7 +112,7 @@ export const ring2Area: IArea = {
     {
       url: 'https://momento360.com/e/u/6ff4bd3e2630436f94cee87bd7630782?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true',
       label: 'Genset 1500 kVA',
-      slug: 'genset',
+      slug: 'genset-1500',
       markers: [
         {
           markerType: 'pin',
@@ -130,7 +130,7 @@ export const ring2Area: IArea = {
     {
       url: 'https://momento360.com/e/u/825fb50131f04fdab555c7291af9b154?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true',
       label: 'Genset Chiller',
-      slug: 'chiller-genset',
+      slug: 'genset-chiller',
       markers: [
         {
           markerType: 'pin',
