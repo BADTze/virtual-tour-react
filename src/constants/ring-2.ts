@@ -176,8 +176,8 @@ export const ring2Area: IArea = {
     },
     {
       url: 'https://momento360.com/e/u/be5c49f20a6b499a9f11f9dfa2d5f285?utm_campaign=embed&utm_source=other&heading=141.17&pitch=-8.88&field-of-view=100&size=medium&display-plan=true',
-      label: 'Genset 1250 kVA',
-      slug: 'genset-1250',
+      label: 'Genset Mgs',
+      slug: 'genset-mgs',
       markers: [
         {
           markerType: 'pin',
@@ -195,7 +195,7 @@ export const ring2Area: IArea = {
     {
       url: 'https://momento360.com/e/u/1fb2e2b7d63c4f9b8b12238bbfcb76cd?utm_campaign=embed&utm_source=other&heading=160.7&pitch=-6.25&field-of-view=100&size=medium&display-plan=true',
       label: 'Substation PET',
-      slug: 'substation',
+      slug: 'substation-pet',
       markers: [
         {
           markerType: 'pin',
