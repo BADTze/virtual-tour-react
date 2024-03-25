@@ -67,7 +67,7 @@ export default function TourScreenLocal({
       <Navbar activeMenu={areaSlug} navClass="fixed top-0 z-50 w-full bg-white" />
       <div
         className={cn(
-          'z-50 bg-sky-400/80 duration-150 absolute left-0 right-0 w-60 p-3',
+          'z-50 bg-sky-400/80 duration-150 absolute left-0 right-0 w-80 p-3',
           open ? 'translate-x-0' : '-translate-x-full'
         )}
         style={{ top: '10vh', bottom: 0 }}
