@@ -12,13 +12,13 @@ export const ring1Area: IArea = {
         {
           markerType: 'walk',
           arrowType:'right',
-          id: 'ring-1/wwtp-office',
+          id: 'outer/20240301_140256_101',
           position: {
             "yaw": 4.772,
             "pitch": -0.114
           },
           tooltip: {
-            content: 'Go <b>WWTP Office</b>',
+            content: 'Go <b>Testing</b>',
           },
         },
         {

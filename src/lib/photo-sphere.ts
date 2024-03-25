@@ -12,7 +12,7 @@ export const decideMarkerType = (markerConfig: MarkerType): string => {
 
     if (markerConfig.arrowType === 'down') return '/images/arrow-down.png';
 
-    if (markerConfig.arrowType === 'left') return '/images/arrow-up-left.png';
+    if (markerConfig.arrowType === 'left') return '/images/arrow-kiri.png';
 
     if (markerConfig.arrowType === 'right') return '/images/arrow-kanan.png';
   }
