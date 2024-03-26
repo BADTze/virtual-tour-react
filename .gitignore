@@ -44,3 +44,6 @@ public/images/ring-2/*
 
 public/images/ring-3/*
 !public/images/ring-3/.gitkeep
+
+public/images/outer/*
+!public/images/outer/.gitkeep
