@@ -103,11 +103,22 @@ export const ring3Area: IArea = {
           markerType: "pin",
           id: "ring-2/",
           position: {
-            yaw: 1.393,
-            pitch: 0.066,
+            yaw: 0.254,
+            pitch: -0.071,
           },
           tooltip: {
             content: "",
+          },
+        },
+        {
+          markerType: "pin",
+          id: "outer/20240305_105807_457",
+          position: {
+            yaw: 3.37,
+            pitch: -0.074,
+          },
+          tooltip: {
+            content: "Keluar",
           },
         },
       ],
@@ -119,13 +130,13 @@ export const ring3Area: IArea = {
       markers: [
         {
           markerType: "pin",
-          id: "ring-2/",
+          id: "outer/20240305_105807_457",
           position: {
             yaw: 2.975,
             pitch: -0.053,
           },
           tooltip: {
-            content: "",
+            content: "Keluar",
           },
         },
         {
@@ -145,6 +156,24 @@ export const ring3Area: IArea = {
       url: "https://momento360.com/e/u/95ad0131c0e04e93873a1f6da68f6b6d?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true",
       label: "Water Storage",
       slug: "water-storage3",
+      markers: [
+        {
+          markerType: "pin",
+          id: "outer/20240305_105807_457",
+          position: {
+            yaw: 3.663,
+            pitch: -0.086,
+          },
+          tooltip: {
+            content: "",
+          },
+        },
+      ],
+    },
+    {
+      url: "https://momento360.com/e/u/95ad0131c0e04e93873a1f6da68f6b6d?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true",
+      label: "Genset Room",
+      slug: "genset-r3",
       markers: [
         {
           markerType: "pin",

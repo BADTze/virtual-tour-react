@@ -18,7 +18,7 @@ export const ring1Area: IArea = {
             pitch: -0.114,
           },
           tooltip: {
-            content: "Go <b>Testing</b>",
+            content: "Keluar",
           },
         },
         {
@@ -106,7 +106,7 @@ export const ring1Area: IArea = {
       markers: [
         {
           markerType: "pin",
-          id: "ring-1/",
+          id: "outer/20240305_142027_547",
           position: {
             yaw: 3.252,
             pitch: 0.036,
@@ -124,7 +124,7 @@ export const ring1Area: IArea = {
       markers: [
         {
           markerType: "pin",
-          id: "ring-1/",
+          id: "outer/20240305_142027_547",
           position: {
             yaw: 3.721,
             pitch: -0.107,
@@ -142,7 +142,7 @@ export const ring1Area: IArea = {
       markers: [
         {
           markerType: "pin",
-          id: "ring-1/",
+          id: "outer/20240305_142027_547",
           position: {
             yaw: 2.386,
             pitch: -0.298,
@@ -160,7 +160,7 @@ export const ring1Area: IArea = {
       markers: [
         {
           markerType: "pin",
-          id: "ring-1/",
+          id: "outer/20240301_140645_472",
           position: {
             yaw: 4.834,
             pitch: -0.137,
@@ -178,7 +178,7 @@ export const ring1Area: IArea = {
       markers: [
         {
           markerType: "pin",
-          id: "ring-1/",
+          id: "outer/20240301_154427_324",
           position: {
             yaw: 0.317,
             pitch: -0.113,
@@ -196,7 +196,7 @@ export const ring1Area: IArea = {
       markers: [
         {
           markerType: "pin",
-          id: "ring-1/",
+          id: "outer/20240301_154427_324",
           position: {
             yaw: 0.518,
             pitch: -0.187,
@@ -213,7 +213,7 @@ export const ring1Area: IArea = {
             pitch: -0.191,
           },
           tooltip: {
-            content: "Masuk",
+            content: "<b>Water Storage</b>",
           },
         },
       ],
@@ -225,7 +225,7 @@ export const ring1Area: IArea = {
       markers: [
         {
           markerType: "pin",
-          id: "ring-1/",
+          id: "ring-1/wwtp-area-1",
           position: {
             yaw: 4.086,
             pitch: -0.208,
@@ -243,7 +243,7 @@ export const ring1Area: IArea = {
       markers: [
         {
           markerType: "pin",
-          id: "ring-1/",
+          id: "outer/20240301_140732_269",
           position: {
             yaw: 1.793,
             pitch: -0.125,
@@ -261,7 +261,7 @@ export const ring1Area: IArea = {
       markers: [
         {
           markerType: "pin",
-          id: "ring-1/",
+          id: "outer/20240301_154741_359",
           position: {
             yaw: 6.064,
             pitch: -0.108,
@@ -279,7 +279,7 @@ export const ring1Area: IArea = {
       markers: [
         {
           markerType: "pin",
-          id: "ring-1/",
+          id: "outer/20240301_154741_359",
           position: {
             yaw: 3.431,
             pitch: -0.119,
@@ -326,7 +326,7 @@ export const ring1Area: IArea = {
       markers: [
         {
           markerType: "pin",
-          id: "ring-1/",
+          id: "outer/20240305_105807_457",
           position: {
             yaw: 5.826,
             pitch: -0.612,
