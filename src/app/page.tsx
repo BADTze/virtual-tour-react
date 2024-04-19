@@ -1,6 +1,9 @@
+import TourScreenLocal from '@/components/TourScreenLocal';
 import { buttonVariants } from '@/components/ui/button';
 import { arr } from '@/constants';
+import { IRoom } from '@/types';
 import Link from 'next/link';
+import { useState } from 'react';
 
 export default function Page() {
   return (
@@ -32,5 +35,6 @@ export default function Page() {
         </div>
       </div>
     </div>
+    
   );
 }

@@ -10,8 +10,7 @@ export const Outer: IArea = {
       slug: "20240304_144159_596",
       markers: [
         {
-          markerType: "walk",
-          arrowType: "left",
+          markerType: "pin",
           id: "/outer/20240301_140256_101",
           position: {
             yaw: 0.179,
@@ -86,7 +85,7 @@ export const Outer: IArea = {
         },
         {
           markerType: "pin",
-          id: "/b",
+          id: "/outer/20240304_144159_596",
           position: {
             yaw: 5.889,
             pitch: -0.089,
