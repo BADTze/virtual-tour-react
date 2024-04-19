@@ -100,16 +100,6 @@ export default function TourScreenLocal({
         </ScrollArea>
       </div>
 
-      {/* <ReactPhotoSphereViewer
-        src={`/images/${slug}/${room}.jpg`}
-        height={'100vh'}
-        width={'100%'}
-        onClick={(data) => {
-          console.log(data);
-        }}
-        plugins={[]}
-      ></ReactPhotoSphereViewer> */}
-
       <div className="w-full h-screen" ref={containerRef}></div>
     </>
   );
