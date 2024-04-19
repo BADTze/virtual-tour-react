@@ -1,5 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
-
 import { buttonVariants } from '@/components/ui/button';
 import { arr } from '@/constants';
 import Link from 'next/link';

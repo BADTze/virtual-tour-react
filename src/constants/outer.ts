@@ -7,6 +7,36 @@ export const Outer: IArea = {
     {
       url: "",
       label: "",
+      slug: "20240304_144159_596",
+      markers: [
+        {
+          markerType: "walk",
+          arrowType: "left",
+          id: "/outer/20240301_140256_101",
+          position: {
+            yaw: 0.179,
+            pitch: -0.002,
+          },
+          tooltip: {
+            content: "Menuju",
+          },
+        },
+        {
+          markerType: "pin",
+          id: "/outer/",
+          position: {
+            yaw: 5.63,
+            pitch: -0.035,
+          },
+          tooltip: {
+            content: "Menuju",
+          },
+        },
+      ],
+    },
+    {
+      url: "",
+      label: "",
       slug: "20240301_140256_101",
       markers: [
         {
