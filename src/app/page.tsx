@@ -30,19 +30,19 @@ export default function Page() {
           </div>
           <div className="flex justify-center gap-3">
             <Link
-              href={`/tour/outer/20240301_140256_101`}
+              href={`/tour/ring-1/20240301_140256_101`}
               className={buttonVariants({ variant: "secondary", size: "lg" })}
             >
               Ring 1
             </Link>
             <Link
-              href={`/tour/outer/20240304_132430_068`}
+              href={`/tour/ring-2/20240304_132430_068`}
               className={buttonVariants({ variant: "secondary", size: "lg" })}
             >
               Ring 2
             </Link>
             <Link
-              href={`/tour/outer/20240305_105707_769`}
+              href={`/tour/ring-3/20240305_105707_769`}
               className={buttonVariants({ variant: "secondary", size: "lg" })}
             >
               Ring 3

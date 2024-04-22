@@ -5,6 +5,46 @@ export const ring2Area: IArea = {
   slug: 'ring-2',
   rooms: [
     {
+      url: "ring-2/20240301_140256_101",
+      label: "Ring 2",
+      slug: "20240304_132430_068",
+      markers: [
+        {
+          markerType: "pin",
+          id: "outer/20240301_140256_101",
+          position: {
+            yaw: 0.151,
+            pitch: 0.005,
+          },
+          tooltip: {
+            content: "Menuju Ring 1",
+          },
+        },
+        {
+          markerType: "enter",
+          id: "ring-2/wtp-room-2",
+          position: {
+            yaw: 4.58,
+            pitch: -0.026,
+          },
+          tooltip: {
+            content: "<b>WTP Room</b>",
+          },
+        },
+        {
+          markerType: "pin",
+          id: "outer/20240304_132445_909",
+          position: {
+            yaw: 3.316,
+            pitch: -0.06,
+          },
+          tooltip: {
+            content: "Menuju",
+          },
+        },
+      ],
+    },
+    {
       url: 'https://momento360.com/e/u/755766a603ad49408572fbedb27b9e4c?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true',
       label: 'WTP Room',
       slug: 'wtp-room-2',

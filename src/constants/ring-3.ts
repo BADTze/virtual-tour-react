@@ -5,6 +5,57 @@ export const ring3Area: IArea = {
   slug: "ring-3",
   rooms: [
     {
+      url: "",
+      label: "Ring 3",
+      slug: "20240305_105707_769",
+      markers: [
+        {
+          markerType: "pin",
+          id: "outer/20240305_105807_457",
+          position: {
+            yaw: 6.016,
+            pitch: 0.033,
+          },
+          tooltip: {
+            content: "Menuju",
+          },
+        },
+        {
+          markerType: "pin",
+          id: "outer/20240305_082704_849",
+          position: {
+            yaw: 4.478,
+            pitch: -0.065,
+          },
+          tooltip: {
+            content: "Menuju",
+          },
+        },
+        {
+          markerType: "pin",
+          id: "outer/20240327_102224_049",
+          position: {
+            yaw: 2.918,
+            pitch: -0.039,
+          },
+          tooltip: {
+            content: "Menuju",
+          },
+        },
+        {
+          markerType: "pin",
+          id: "ring-3/wwtp-r3",
+          position: {
+            yaw: 2.534,
+            pitch: 0.012,
+          },
+          tooltip: {
+            content: "",
+          },
+        },
+      ],
+    },
+    {
       url: "https://momento360.com/e/u/954ee7c6d3504ac9803feaae9db92319?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true",
       label: "High Compressor",
       slug: "comp-high3",

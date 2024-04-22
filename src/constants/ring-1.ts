@@ -5,13 +5,74 @@ export const ring1Area: IArea = {
   slug: "ring-1",
   rooms: [
     {
+      url: "ring-1/20240301_140256_101",
+      label: "Ring 1",
+      slug: "20240301_140256_101",
+      markers: [
+        {
+          markerType: "pin",
+          id: "outer/20240301_140318_290",
+          position: {
+            yaw: 4.479,
+            pitch: -0.078,
+          },
+          tooltip: {
+            content: "Menuju",
+          },
+        },
+        {
+          markerType: "enter",
+          id: "ring-1/wtp-room-1",
+          position: {
+            yaw: 2.911,
+            pitch: -0.03,
+          },
+          tooltip: {
+            content: "<b>WTP Room</b>",
+          },
+        },
+        {
+          markerType: "enter",
+          id: "ring-1/compressor-room",
+          position: {
+            yaw: 2.227,
+            pitch: 0.014,
+          },
+          tooltip: {
+            content: "<b>Compressor Room</b>",
+          },
+        },
+        {
+          markerType: "pin",
+          id: "outer/20240304_132430_068",
+          position: {
+            yaw: 1.504,
+            pitch: 0.018,
+          },
+          tooltip: {
+            content: "Menuju ke Ring 2",
+          },
+        },
+        {
+          markerType: "pin",
+          id: "outer/20240304_144159_596",
+          position: {
+            yaw: 5.889,
+            pitch: -0.089,
+          },
+          tooltip: {
+            content: "Kembali",
+          },
+        },
+      ],
+    },
+    {
       url: "https://momento360.com/e/u/49bace9b03c745aab78bc07dc1eba5c5?utm_campaign=embed&utm_source=other&heading=151.12&pitch=-4.31&field-of-view=75&size=medium&display-plan=true",
       label: "WTP Room 1",
       slug: "wtp-room-1",
       markers: [
         {
-          markerType: "walk",
-          arrowType: "right",
+          markerType: "exit",
           id: "outer/20240301_140256_101",
           position: {
             yaw: 4.772,

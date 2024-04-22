@@ -11,7 +11,7 @@ export const Outer: IArea = {
       markers: [
         {
           markerType: "pin",
-          id: "/outer/20240301_140256_101",
+          id: "outer/20240301_140256_101",
           position: {
             yaw: 0.179,
             pitch: -0.002,
@@ -41,7 +41,7 @@ export const Outer: IArea = {
         {
           markerType: "walk",
           arrowType: "left",
-          id: "/outer/20240301_140318_290",
+          id: "outer/20240301_140318_290",
           position: {
             yaw: 4.479,
             pitch: -0.078,
@@ -74,7 +74,7 @@ export const Outer: IArea = {
         },
         {
           markerType: "pin",
-          id: "/outer/20240304_132430_068",
+          id: "outer/20240304_132430_068",
           position: {
             yaw: 1.504,
             pitch: 0.018,
@@ -85,7 +85,7 @@ export const Outer: IArea = {
         },
         {
           markerType: "pin",
-          id: "/outer/20240304_144159_596",
+          id: "outer/20240304_144159_596",
           position: {
             yaw: 5.889,
             pitch: -0.089,
@@ -103,7 +103,7 @@ export const Outer: IArea = {
       markers: [
         {
           markerType: "pin",
-          id: "/outer/20240305_142027_547",
+          id: "outer/20240305_142027_547",
           position: {
             yaw: 6.234,
             pitch: -0.039,
@@ -114,7 +114,7 @@ export const Outer: IArea = {
         },
         {
           markerType: "pin",
-          id: "/outer/20240301_140256_101",
+          id: "outer/20240301_140256_101",
           position: {
             yaw: 4.635,
             pitch: -0.061,
@@ -125,7 +125,7 @@ export const Outer: IArea = {
         },
         {
           markerType: "enter",
-          id: "/ring-1/sub-station1.2",
+          id: "ring-1/sub-station1.2",
           position: {
             yaw: 4.247,
             pitch: -0.033,
@@ -136,7 +136,7 @@ export const Outer: IArea = {
         },
         {
           markerType: "enter",
-          id: "/ring-1/genset-1",
+          id: "ring-1/genset-1",
           position: {
             yaw: 4.079,
             pitch: -0.025,
@@ -154,7 +154,7 @@ export const Outer: IArea = {
       markers: [
         {
           markerType: "pin",
-          id: "/outer/20240301_140318_290",
+          id: "outer/20240301_140318_290",
           position: {
             yaw: 4.623,
             pitch: -0.068,
@@ -187,7 +187,7 @@ export const Outer: IArea = {
         },
         {
           markerType: "enter",
-          id: "/ring-1/boiler-1",
+          id: "ring-1/boiler-1",
           position: {
             yaw: 2.058,
             pitch: 0.003,
@@ -198,7 +198,7 @@ export const Outer: IArea = {
         },
         {
           markerType: "pin",
-          id: "/outer/20240301_140645_472",
+          id: "outer/20240301_140645_472",
           position: {
             yaw: 1.485,
             pitch: -0.087,
@@ -216,7 +216,7 @@ export const Outer: IArea = {
       markers: [
         {
           markerType: "pin",
-          id: "/outer/20240305_142027_547",
+          id: "outer/20240305_142027_547",
           position: {
             yaw: 1.412,
             pitch: -0.081,
@@ -228,7 +228,7 @@ export const Outer: IArea = {
         {
           markerType: "walk",
           arrowType: "left",
-          id: "/ring-1/pump-room-1",
+          id: "ring-1/pump-room-1",
           position: {
             yaw: 5.915,
             pitch: 0.002,
@@ -239,7 +239,7 @@ export const Outer: IArea = {
         },
         {
           markerType: "pin",
-          id: "/outer/20240301_140732_269",
+          id: "outer/20240301_140732_269",
           position: {
             yaw: 4.376,
             pitch: -0.085,
@@ -257,7 +257,7 @@ export const Outer: IArea = {
       markers: [
         {
           markerType: "pin",
-          id: "/outer/20240301_140645_472",
+          id: "outer/20240301_140645_472",
           position: {
             yaw: 1.412,
             pitch: -0.081,
@@ -268,7 +268,7 @@ export const Outer: IArea = {
         },
         {
           markerType: "pin",
-          id: "/outer/20240301_154427_324",
+          id: "outer/20240301_154427_324",
           position: {
             yaw: 6.174,
             pitch: -0.056,
@@ -279,7 +279,7 @@ export const Outer: IArea = {
         },
         {
           markerType: "pin",
-          id: "/ring-1/wwtp-office",
+          id: "ring-1/wwtp-office",
           position: {
             yaw: 5.383,
             pitch: 0.239,
@@ -290,7 +290,7 @@ export const Outer: IArea = {
         },
         {
           markerType: "pin",
-          id: "/outer/20240301_140752_414",
+          id: "outer/20240301_140752_414",
           position: {
             yaw: 4.587,
             pitch: -0.085,
@@ -308,7 +308,7 @@ export const Outer: IArea = {
       markers: [
         {
           markerType: "pin",
-          id: "/ring-1/dw-2",
+          id: "ring-1/dw-2",
           position: {
             yaw: 0.428,
             pitch: -0.097,
@@ -319,7 +319,7 @@ export const Outer: IArea = {
         },
         {
           markerType: "pin",
-          id: "/outer/20240301_140732_269",
+          id: "outer/20240301_140732_269",
           position: {
             yaw: 4.599,
             pitch: -0.091,
@@ -330,7 +330,7 @@ export const Outer: IArea = {
         },
         {
           markerType: "pin",
-          id: "/ring-1/wwtp-area-1",
+          id: "ring-1/wwtp-area-1",
           position: {
             yaw: 2.375,
             pitch: 0.371,
@@ -348,7 +348,7 @@ export const Outer: IArea = {
       markers: [
         {
           markerType: "pin",
-          id: "/outer/20240301_154741_359",
+          id: "outer/20240301_154741_359",
           position: {
             yaw: 1.719,
             pitch: -0.025,
@@ -359,7 +359,7 @@ export const Outer: IArea = {
         },
         {
           markerType: "pin",
-          id: "/outer/20240301_140732_269",
+          id: "outer/20240301_140732_269",
           position: {
             yaw: 5.687,
             pitch: -0.059,
@@ -377,7 +377,7 @@ export const Outer: IArea = {
       markers: [
         {
           markerType: "pin",
-          id: "/outer/20240301_140752_414",
+          id: "outer/20240301_140752_414",
           position: {
             yaw: 2.154,
             pitch: -0.042,
@@ -388,7 +388,7 @@ export const Outer: IArea = {
         },
         {
           markerType: "enter",
-          id: "/ring-1/sub-station1.1",
+          id: "ring-1/sub-station1.1",
           position: {
             yaw: 0.214,
             pitch: 0.011,
@@ -399,7 +399,7 @@ export const Outer: IArea = {
         },
         {
           markerType: "enter",
-          id: "/ring-1/chiller-gbl",
+          id: "ring-1/chiller-gbl",
           position: {
             yaw: 5.91,
             pitch: 0.088,
@@ -410,7 +410,7 @@ export const Outer: IArea = {
         },
         {
           markerType: "pin",
-          id: "/ring-1/dw-1",
+          id: "ring-1/dw-1",
           position: {
             yaw: 4.776,
             pitch: -0.049,
@@ -428,7 +428,7 @@ export const Outer: IArea = {
       markers: [
         {
           markerType: "pin",
-          id: "/ring-1/dw-1",
+          id: "ring-1/dw-1",
           position: {
             yaw: 2.237,
             pitch: -0.074,
@@ -439,7 +439,7 @@ export const Outer: IArea = {
         },
         {
           markerType: "pin",
-          id: "/outer/20240305_105553_156",
+          id: "outer/20240305_105553_156",
           position: {
             yaw: 0.167,
             pitch: -0.034,
@@ -715,7 +715,7 @@ export const Outer: IArea = {
             pitch: -0.024,
           },
           tooltip: {
-            content: "",
+            content: "Menuju",
           },
         },
         {
@@ -877,7 +877,7 @@ export const Outer: IArea = {
     //Ring 3 Outer Ring
     {
       url: "",
-      label: "",
+      label: "Ring 3",
       slug: "20240321_084515_237",
       markers: [
         {
@@ -922,7 +922,7 @@ export const Outer: IArea = {
       markers: [
         {
           markerType: "pin",
-          id: "/outer/20240305_082728_515",
+          id: "outer/20240305_082728_515",
           position: {
             yaw: 6.277,
             pitch: 0.002,
@@ -1108,7 +1108,7 @@ export const Outer: IArea = {
         },
         {
           markerType: "pin",
-          id: "outer/20240305_105707_769",
+          id: "ring-3/20240305_105707_769",
           position: {
             yaw: 1.57,
             pitch: -0.063,
