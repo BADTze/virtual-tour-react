@@ -1132,7 +1132,18 @@ export const Outer: IArea = {
             pitch: 0.012,
           },
           tooltip: {
-            content: "",
+            content: "Wasted water plant",
+          },
+        },
+        {
+          markerType: "pin",
+          id: "ring-3/cooling-tower3",
+          position: {
+            yaw: 4.176,
+            pitch: 0.615,
+          },
+          tooltip: {
+            content: "Cooling Tower",
           },
         },
       ],
