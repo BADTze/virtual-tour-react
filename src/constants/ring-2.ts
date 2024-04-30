@@ -107,17 +107,17 @@ export const ring2Area: IArea = {
             content: 'Keluar',
           },
         },
-        {
-          markerType: 'pin',
-          id: 'ring-2/t',
-          position: {
-            "yaw": 2.625,
-            "pitch": -0.024
-          },
-          tooltip: {
-            content: '',
-          },
-        },
+        // {
+        //   markerType: 'pin',
+        //   id: 'ring-2/t',
+        //   position: {
+        //     "yaw": 2.625,
+        //     "pitch": -0.024
+        //   },
+        //   tooltip: {
+        //     content: '',
+        //   },
+        // },
       ],
     },
     {
@@ -136,17 +136,17 @@ export const ring2Area: IArea = {
             content: 'Keluar',
           },
         },
-        {
-          markerType: 'pin',
-          id: 'ring-2/h',
-          position: {
-            "yaw": 6.27,
-            "pitch": -0.108
-          },
-          tooltip: {
-            content: '',
-          },
-        },
+        // {
+        //   markerType: 'pin',
+        //   id: 'ring-2/h',
+        //   position: {
+        //     "yaw": 6.27,
+        //     "pitch": -0.108
+        //   },
+        //   tooltip: {
+        //     content: '',
+        //   },
+        // },
       ],
     },
     {
@@ -201,17 +201,17 @@ export const ring2Area: IArea = {
             content: 'Keluar',
           },
         },
-        {
-          markerType: 'pin',
-          id: 'ring-2/a',
-          position: {
-            "yaw": 3.158,
-            "pitch": -0.168
-          },
-          tooltip: {
-            content: '',
-          },
-        },
+        // {
+        //   markerType: 'pin',
+        //   id: 'ring-2/a',
+        //   position: {
+        //     "yaw": 3.158,
+        //     "pitch": -0.168
+        //   },
+        //   tooltip: {
+        //     content: '',
+        //   },
+        // },
       ],
     },
     {
