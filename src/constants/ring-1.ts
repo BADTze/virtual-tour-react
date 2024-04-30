@@ -111,17 +111,17 @@ export const ring1Area: IArea = {
             content: "Keluar",
           },
         },
-        {
-          markerType: "pin",
-          id: "ring-1/w",
-          position: {
-            yaw: 4.563,
-            pitch: -0.114,
-          },
-          tooltip: {
-            content: "Masuk",
-          },
-        },
+        // {
+        //   markerType: "pin",
+        //   id: "ring-1/w",
+        //   position: {
+        //     yaw: 4.563,
+        //     pitch: -0.114,
+        //   },
+        //   tooltip: {
+        //     content: "Masuk",
+        //   },
+        // },
       ],
     },
     {
