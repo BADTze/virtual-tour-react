@@ -62,7 +62,7 @@ export const ring3Area: IArea = {
       markers: [
         {
           markerType: "pin",
-          id: "ring-2/",
+          id: "outer/20240305_105553_156",
           position: {
             yaw: 4.328,
             pitch: -0.046,
@@ -80,7 +80,7 @@ export const ring3Area: IArea = {
       markers: [
         {
           markerType: "pin",
-          id: "ring-2/",
+          id: "outer/20240305_105553_156",
           position: {
             yaw: 1.505,
             pitch: 0.044,
@@ -98,7 +98,7 @@ export const ring3Area: IArea = {
       markers: [
         {
           markerType: "pin",
-          id: "ring-2/",
+          id: "outer/20240327_102224_049",
           position: {
             yaw: 3.276,
             pitch: -0.176,
@@ -116,7 +116,7 @@ export const ring3Area: IArea = {
       markers: [
         {
           markerType: "pin",
-          id: "ring-2/",
+          id: "outer/20240327_102224_049",
           position: {
             yaw: 2.337,
             pitch: -0.049,
@@ -134,7 +134,7 @@ export const ring3Area: IArea = {
       markers: [
         {
           markerType: "pin",
-          id: "ring-2/",
+          id: "ring-3/20240305_105707_769",
           position: {
             yaw: 3.635,
             pitch: -0.096,

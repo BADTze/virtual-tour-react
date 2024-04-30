@@ -22,7 +22,7 @@ export const Outer: IArea = {
         },
         {
           markerType: "pin",
-          id: "/outer/",
+          id: "outer/20240305_082538_921",
           position: {
             yaw: 5.63,
             pitch: -0.035,
@@ -933,7 +933,7 @@ export const Outer: IArea = {
         },
         {
           markerType: "pin",
-          id: "o",
+          id: "outer/20240305_082629_548",
           position: {
             yaw: 5.009,
             pitch: -0.087,
@@ -959,6 +959,126 @@ export const Outer: IArea = {
           position: {
             yaw: 3.124,
             pitch: -0.044,
+          },
+          tooltip: {
+            content: "Menuju",
+          },
+        },
+      ],
+    },
+    {
+      url: "",
+      label: "",
+      slug: "20240305_082629_548",
+      markers: [
+        {
+          markerType: "pin",
+          id: "outer/20240305_082704_849",
+          position: {
+            yaw: 4.633,
+            pitch: -0.023,
+          },
+          tooltip: {
+            content: "Menuju",
+          },
+        },
+        {
+          markerType: "pin",
+          id: "outer/20240305_082550_025",
+          position: {
+            yaw: 3.005,
+            pitch: -0.069,
+          },
+          tooltip: {
+            content: "Menuju",
+          },
+        },
+        {
+          markerType: "pin",
+          id: "outer/20240305_082538_921",
+          position: {
+            yaw: 1.441,
+            pitch: -0.038,
+          },
+          tooltip: {
+            content: "Menuju",
+          },
+        },
+      ],
+    },
+    {
+      url: "",
+      label: "",
+      slug: "20240305_082550_025",
+      markers: [
+        {
+          markerType: "pin",
+          id: "outer/20240305_082629_548",
+          position: {
+            yaw: 1.538,
+            pitch: -0.019,
+          },
+          tooltip: {
+            content: "Menuju",
+          },
+        },
+        {
+          markerType: "pin",
+          id: "ring-2/dw-4",
+          position: {
+            yaw: 0.112,
+            pitch: 0.046,
+          },
+          tooltip: {
+            content: "Deep well 4",
+          },
+        },
+        {
+          markerType: "pin",
+          id: "ring-2/water-storage",
+          position: {
+            yaw: 3.941,
+            pitch: -0.148,
+          },
+          tooltip: {
+            content: "Water Storage",
+          },
+        },
+      ],
+    },
+    {
+      url: "",
+      label: "",
+      slug: "20240305_082538_921",
+      markers: [
+        {
+          markerType: "pin",
+          id: "outer/20240304_144159_596",
+          position: {
+            yaw: 1.334,
+            pitch: 0.002,
+          },
+          tooltip: {
+            content: "Menuju",
+          },
+        },
+        {
+          markerType: "pin",
+          id: "ring-1/dw-3",
+          position: {
+            yaw: 3.074,
+            pitch: -0.333,
+          },
+          tooltip: {
+            content: "Deep Well 3",
+          },
+        },
+        {
+          markerType: "pin",
+          id: "outer/20240305_082629_548",
+          position: {
+            yaw: 4.833,
+            pitch: -0.08,
           },
           tooltip: {
             content: "Menuju",

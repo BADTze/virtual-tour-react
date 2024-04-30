@@ -405,7 +405,7 @@ export const ring1Area: IArea = {
       markers: [
         {
           markerType: "pin",
-          id: "ring-1/",
+          id: "outer/20240305_082538_921",
           position: {
             yaw: 4.492,
             pitch: 0.316,

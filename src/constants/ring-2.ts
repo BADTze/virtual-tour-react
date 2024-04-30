@@ -315,7 +315,7 @@ export const ring2Area: IArea = {
       markers: [
         {
           markerType: 'pin',
-          id: 'ring-2/',
+          id: 'outer/20240305_082550_025',
           position: {
             "yaw": 3.3,
             "pitch": 0.47
@@ -333,7 +333,7 @@ export const ring2Area: IArea = {
       markers: [
         {
           markerType: 'pin',
-          id: 'ring-2/',
+          id: 'outer/20240305_082550_025',
           position: {
             "yaw": 0.643,
             "pitch": -0.111
@@ -362,7 +362,7 @@ export const ring2Area: IArea = {
       markers: [
         {
           markerType: 'pin',
-          id: 'ring-2/',
+          id: 'outer/20240305_082728_515',
           position: {
             "yaw": 3.142,
             "pitch": -0.211
@@ -380,7 +380,7 @@ export const ring2Area: IArea = {
       markers: [
         {
           markerType: 'pin',
-          id: 'ring-2/',
+          id: 'outer/20240305_082728_515',
           position: {
             "yaw": 3.663,
             "pitch": -0.086
