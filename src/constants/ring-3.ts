@@ -68,7 +68,7 @@ export const ring3Area: IArea = {
             pitch: -0.046,
           },
           tooltip: {
-            content: "",
+            content: "Keluar",
           },
         },
       ],
@@ -86,7 +86,7 @@ export const ring3Area: IArea = {
             pitch: 0.044,
           },
           tooltip: {
-            content: "",
+            content: "Keluar",
           },
         },
       ],
@@ -104,7 +104,7 @@ export const ring3Area: IArea = {
             pitch: -0.176,
           },
           tooltip: {
-            content: "",
+            content: "Keluar",
           },
         },
       ],
@@ -122,7 +122,7 @@ export const ring3Area: IArea = {
             pitch: -0.049,
           },
           tooltip: {
-            content: "",
+            content: "Keluar",
           },
         },
       ],
@@ -140,7 +140,7 @@ export const ring3Area: IArea = {
             pitch: -0.096,
           },
           tooltip: {
-            content: "",
+            content: "Keluar",
           },
         },
       ],
@@ -150,17 +150,17 @@ export const ring3Area: IArea = {
       label: "Cooling Tower",
       slug: "cooling-tower3",
       markers: [
-        {
-          markerType: "pin",
-          id: "ring-2/",
-          position: {
-            yaw: 0.254,
-            pitch: -0.071,
-          },
-          tooltip: {
-            content: "",
-          },
-        },
+        // {
+        //   markerType: "pin",
+        //   id: "ring-2/",
+        //   position: {
+        //     yaw: 0.254,
+        //     pitch: -0.071,
+        //   },
+        //   tooltip: {
+        //     content: "",
+        //   },
+        // },
         {
           markerType: "pin",
           id: "outer/20240305_105807_457",
@@ -190,17 +190,17 @@ export const ring3Area: IArea = {
             content: "Keluar",
           },
         },
-        {
-          markerType: "pin",
-          id: "ring-2/her",
-          position: {
-            yaw: 6.075,
-            pitch: -0.107,
-          },
-          tooltip: {
-            content: "",
-          },
-        },
+        // {
+        //   markerType: "pin",
+        //   id: "ring-2/her",
+        //   position: {
+        //     yaw: 6.075,
+        //     pitch: -0.107,
+        //   },
+        //   tooltip: {
+        //     content: "",
+        //   },
+        // },
       ],
     },
     {
@@ -216,7 +216,7 @@ export const ring3Area: IArea = {
             pitch: -0.086,
           },
           tooltip: {
-            content: "",
+            content: "Keluar",
           },
         },
       ],
@@ -228,13 +228,13 @@ export const ring3Area: IArea = {
       markers: [
         {
           markerType: "pin",
-          id: "ring-2/",
+          id: "outer/20240321_084515_237",
           position: {
-            yaw: 3.663,
-            pitch: -0.086,
+            yaw: 0.88,
+            pitch: -0.002,
           },
           tooltip: {
-            content: "",
+            content: "Keluar",
           },
         },
       ],
