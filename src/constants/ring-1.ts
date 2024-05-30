@@ -75,8 +75,8 @@ export const ring1Area: IArea = {
           markerType: "exit",
           id: "outer/20240301_140256_101",
           position: {
-            yaw: 4.772,
-            pitch: -0.114,
+            yaw: 6.268,
+            pitch: -0.059,
           },
           tooltip: {
             content: "Keluar",
@@ -86,8 +86,8 @@ export const ring1Area: IArea = {
           markerType: "pin",
           id: "ring-1/compressor-room",
           position: {
-            yaw: 0.99,
-            pitch: -0.019,
+            yaw: 2.22,
+            pitch: -0.048,
           },
           tooltip: {
             content: "Go to <b>Compressor Room</b>",
@@ -104,11 +104,22 @@ export const ring1Area: IArea = {
           markerType: "pin",
           id: "outer/20240301_140256_101",
           position: {
-            yaw: 0.313,
-            pitch: -0.121,
+            yaw: 3.589,
+            pitch: -0.156,
           },
           tooltip: {
             content: "Keluar",
+          },
+        },
+        {
+          markerType: "pin",
+          id: "ring-1/wtp-room-1",
+          position: {
+            yaw: 1.822,
+            pitch: -0.051,
+          },
+          tooltip: {
+            content: "Kembali",
           },
         },
         // {

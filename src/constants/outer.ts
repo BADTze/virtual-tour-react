@@ -74,7 +74,7 @@ export const Outer: IArea = {
         },
         {
           markerType: "pin",
-          id: "outer/20240304_132430_068",
+          id: "ring-2/20240304_132430_068",
           position: {
             yaw: 1.504,
             pitch: 0.018,
@@ -770,8 +770,7 @@ export const Outer: IArea = {
           },
         },
         {
-          markerType: "walk",
-          arrowType: "right",
+          markerType: "pin",
           id: "ring-2/boiler-12tph",
           position: {
             yaw: 0.151,
